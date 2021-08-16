@@ -1,6 +1,5 @@
 package com.example.app.appUser;
 
-import com.example.app.Registration.RegistrationController;
 import com.example.app.Registration.RegistrationToken.ConfirmationToken;
 import com.example.app.Registration.RegistrationToken.ConfirmationTokenService;
 import lombok.AllArgsConstructor;
@@ -50,10 +49,14 @@ public class AppUserService implements UserDetailsService {
                 appUser
         );
 
-        confirmationTokenService.saveConfirmationtoken(confirmationToken);
-
-        //TODO: Email Send
+        confirmationTokenService.saveConfirmationToken(confirmationToken);
 
         return token;
+
+        //TODO: Email Send
+    }
+
+    public static String enableAppUser(String email) {
+        return UserRepository.enableAppUser(email);
     }
 }

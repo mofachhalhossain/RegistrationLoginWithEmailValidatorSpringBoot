@@ -4,7 +4,6 @@ import com.example.app.appUser.AppUser;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
@@ -23,10 +22,10 @@ public class ConfirmationToken {
     private String token;
 
     @Column(nullable = false)
-    private LocalDateTime createdlocalDateTime;
+    private LocalDateTime createdLocalDateTime;
 
     @Column(nullable = false)
-    private LocalDateTime expiredlocalDateTime;
+    private LocalDateTime expiredLocalDateTime;
 
     private LocalDateTime confirmedAt;
 
@@ -35,10 +34,11 @@ public class ConfirmationToken {
     private AppUser appUser;
 
 
-    public ConfirmationToken(String token, LocalDateTime createdlocalDateTime, LocalDateTime expiredlocalDateTime,AppUser appUser) {
+    public ConfirmationToken(String token, LocalDateTime createdLocalDateTime, LocalDateTime expiredLocalDateTime,AppUser appUser) {
         this.token = token;
-        this.createdlocalDateTime = createdlocalDateTime;
-        this.expiredlocalDateTime = expiredlocalDateTime;
+        this.createdLocalDateTime = createdLocalDateTime;
+        this.expiredLocalDateTime = expiredLocalDateTime;
         this.appUser = appUser;
     }
+
 }
