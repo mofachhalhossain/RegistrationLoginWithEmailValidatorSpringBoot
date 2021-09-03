@@ -23,7 +23,8 @@ public class AppUserService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
-        return userRepository.findByEmail(email).orElseThrow(()-> new UsernameNotFoundException(String.format(User_Not_Found, email)));
+        return userRepository.findByEmail(email).
+                orElseThrow(()-> new UsernameNotFoundException(String.format(User_Not_Found, email)));
     }
 
     public String signUpUser(AppUser appUser){
@@ -56,7 +57,7 @@ public class AppUserService implements UserDetailsService {
         //TODO: Email Send
     }
 
-    public static String enableAppUser(String email) {
+    public int enableAppUser(String email) {
         return UserRepository.enableAppUser(email);
     }
 }

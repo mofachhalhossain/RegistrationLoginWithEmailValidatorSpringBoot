@@ -1,0 +1,1 @@
+Registration, Login with Email validation mini project.

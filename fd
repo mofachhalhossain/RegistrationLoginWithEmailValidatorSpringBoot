@@ -1,0 +1,53 @@
+[33mcommit 50a403bd40bb038e7895414fde12d478fd5694b5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Mofachhal Hossain <mofachhalhossain101@gmail.com>
+Date:   Tue Aug 17 04:58:19 2021 +0600
+
+    Changes on appUserService, UserRepo, RegistrationService
+
+[33mcommit be1c2a564e6a27e0c087aea9af449ff4010fc75d[m
+Author: Mofachhal Hossain <mofachhalhossain101@gmail.com>
+Date:   Mon Aug 9 15:52:44 2021 +0600
+
+    Registration Token Initialized
+
+[33mcommit 4bbc568a80b4e7cf8cdb7074d40b72152bf029e7[m
+Author: Mofachhal Hossain <mofachhalhossain101@gmail.com>
+Date:   Sun Aug 8 15:10:37 2021 +0600
+
+    value PostMapping worked with database.
+
+[33mcommit 8693b4680a42e03eecef524b9f47aab78d49b32f[m
+Author: Mofachhal Hossain <mofachhalhossain101@gmail.com>
+Date:   Sat Aug 7 17:55:21 2021 +0600
+
+    gitignore
+
+[33mcommit 593a30a826eb500831cdeb747c68fac1dda9a38e[m
+Author: Mofachhal Hossain <mofachhalhossain101@gmail.com>
+Date:   Sat Aug 7 17:54:58 2021 +0600
+
+    security config
+
+[33mcommit 8b1c4585538472d2935e8e5c7851dd3245650ffa[m
+Author: Mofachhal Hossain <mofachhalhossain101@gmail.com>
+Date:   Sat Aug 7 17:54:37 2021 +0600
+
+    registration config
+
+[33mcommit 9dd4d9f4884cab70b37d709641b76b98cbbd8840[m
+Author: Mofachhal Hossain <mofachhalhossain101@gmail.com>
+Date:   Sat Aug 7 17:54:23 2021 +0600
+
+    user config
+
+[33mcommit e95cabbff7a2591abccf546ef3c1eff075dd890e[m
+Author: Mofachhal Hossain <mofachhalhossain101@gmail.com>
+Date:   Sat Aug 7 17:54:04 2021 +0600
+
+    init
+
+[33mcommit ead5ebbcdb3ff6e188f361b91cc2b1438d64272a[m
+Author: Mofachhal Hossain <mofachhalhossain101@gmail.com>
+Date:   Sat Aug 7 17:53:09 2021 +0600
+
+    init
